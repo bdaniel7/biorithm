@@ -1,0 +1,91 @@
+[Root]
+Most Recent Package=Bioritm
+
+
+[Package|Bioritm|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Lucru\VBasic\proiecte\Bioritm\Package
+
+[Package|Bioritm|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Bioritm|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Bioritm|Files Found]
+
+[Package|Bioritm|Files Released]
+
+[Package|Bioritm|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=
+
+[Package|Bioritm|Out-of-Date Dependency Information]
+
+[Package|Bioritm|Files Added]
+
+[Package|Bioritm|Files Removed]
+
+[Package|Bioritm|Files In Project]
+C:\Lucru\VBasic\proiecte\Bioritm\Bioritm.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\AsycFilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Bioritm|Configure Registry Files]
+Applicable=No
+
+[Package|Bioritm|Configure Remote Servers]
+Applicable=No
+
+[Package|Bioritm|Install Locations]
+C:\Lucru\VBasic\proiecte\Bioritm\Bioritm.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\AsycFilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Bioritm|Configure Shared Files]
+Applicable=Yes
+C:\Lucru\VBasic\proiecte\Bioritm\Bioritm.exe=No
+
+[Package|Bioritm|Distribution]
+Type=single
+Size=
+Title=Bioritm
+
+[Package|Bioritm|IconGroups]
+Group0=BrandSoft
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Bioritm|BrandSoft]
+Icon1=Bioritm.exe
+Title1=Bioritm
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Bioritm|Package]
+PackageFolder=C:\Lucru\VBasic\proiecte\Bioritm\Package
+ProjectFolder=C:\Lucru\VBasic\proiecte\Bioritm
+ServerSideCab=
+File1=C:\Lucru\VBasic\proiecte\Bioritm\Package\setup.exe
+File2=C:\Lucru\VBasic\proiecte\Bioritm\Package\Setup.Lst
+File3=C:\Lucru\VBasic\proiecte\Bioritm\Package\Bioritm.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
