@@ -8,3 +8,5 @@ The .exe still runs today on Windows 10.
 The settings read:
 
 Day - Month - Year -> Target year -> Calculate
+
+![Screenshot](screenshot.jpg)
